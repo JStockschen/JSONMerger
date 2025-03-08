@@ -3,7 +3,7 @@ import json
 import glob
 
 # Define the main folder path
-main_folder = r"C:\Users\Johan\Downloads\package\messages"
+main_folder = r"your_path_name"
 
 # Find all messages.json files recursively
 json_files = glob.glob(os.path.join(main_folder, "**", "messages.json"), recursive=True)
